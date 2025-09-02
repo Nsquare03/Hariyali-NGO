@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HARYALI NGO</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>	
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="JOINUS.html">JOIN US</a></li>
+            <li><a href="GALLERY.html">GALLERY</a></li> 
+            <li><a href="OURTEAM.html">OUR TEAM</a></li>
+            <li><a href="ABOUTUS.html">ABOUT US</a></li>
+            <li><a href="OURACHIEVEMENTS.html">OUR ACHIEVEMENTS</a></li>
+
+
+		</ul>
+
+	<div class="div1"><h1 style="text-align: center; background-color: greenyellow; font-size: 40px;">HARIYALI NGO</h1></div>
+	<div class="div2" style="background-image: url(image/2.avif);"></div>
+	<div class="div3">
+		<form action="form.php">
+		<table>
+			<caption style="font-size:35px">APPLICATION TO JOIN US</caption>
+			<tr>
+				<th>NAME:</th>
+				<td><input type="text" name="NAME" value="" placeholder="ENTER YOUR NAME"></td>
+			</tr>
+						<tr>
+				<th>ADDRESS:</th>
+				<td><textarea name="ADDRESS" placeholder="RESIDENCIAL AREA"></textarea></td>
+			</tr>
+						<tr>
+				<th>DATE OF BIRTH:</th>
+				<td><input type="date" name="DATE OF BIRTH" value="" min="01-01-1947" max="31-12-2008"></td>
+
+					</tr>
+						<tr>
+				<th>CONTACT NUMBER:</th>
+				<td><input type="NUMBER" name="CONTACT" value="" placeholder="CONTACT NO."></td>
+			</tr>
+						<tr>
+				<th>CREATE PASSWORD:</th>
+				<td><input type="PASSWORD" name="PASSWORD" value="" placeholder="STRONG PASSWORD"></td>
+			</tr>
+                		<tr>
+				<th>GENDER:</th>
+				<td>MALE<input type="RADIO" name="GENDER" value="MALE">
+				FEMALE<input type="RADIO" name="GENDER" value="FEMALE">
+				OTHER<input type="RADIO" name="GENDER" value="OTHER"></td>
+			</tr>
+				<tr>
+				<th>EMAIL ADDRESS:</th>
+				<td><input type="email" name="EMAIL ADDRESS" value="" placeholder="Valid email address"></td>
+			</tr>
+			<tr>
+				<th>
+					<details>
+						<summary>BIRTH CERTIFICATE</summary>
+		                  <p>This is required to check your citizenship</p>
+	                </details>
+                </th>
+				<td><input type="file" name="BIRTH CERTIFICATE" value="" accept="image/jpg,pdf,avif"></td>
+			</tr>
+				<tr>
+				<th>HOBBY:</th>
+				<td>PLANTING<input type="checkbox" name="hobby" value="PLANTING"><br>
+				UPCYCLING<input type="checkbox" name="hobby" value="UPCYCLING"><br>
+				HIKING<input type="checkbox" name="hobby" value="HIKING"><br>
+				CYCLING<input type="checkbox" name="hobby" value="CYCLING"><br>
+				BIRDWATCHING<input type="checkbox" name="hobby" value="BIRDWATCHING"></td>
+			</tr>
+		</table>
+		<input type="reset" name="button" value="reset" style="font-size: 35px; margin: 10px 0px 10px 580px;">
+		<input type="submit" name="button" value="submit" style="font-size: 50px; margin: 10px 0px 0px 550px; cursor: pointer;" >
+	</div>
+
+</body>
+</html>
